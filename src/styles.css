@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  height: 100%;
+}
+body {
+  padding: 2vh;
+  height: 92vh;
+  border: 2px solid black;
+}
+app-root {
+  height: inherit !important;
+  width: inherit !important;
+}
+
+.owner {
+  min-width: 47%;
+  min-height: 50vh;
+  float: left;
+  border: 2px solid black;
+  padding-left: 1%;
+}
+
+.vehicle {
+  min-width: 48%;
+  min-height: 50vh;
+  padding-left: 1%;
+  margin-left: 49%;
+  border: 2px solid black;
+}
